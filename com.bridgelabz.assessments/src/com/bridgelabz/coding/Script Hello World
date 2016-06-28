@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>Header paragraph</p>
+<script>
+   alert('Hello, World!')
+  	</script>
+<p>Paragraph Footer</p>
+</body>
+</html>

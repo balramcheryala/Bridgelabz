@@ -1,0 +1,20 @@
+<html>
+  <body>
+	
+    
+    <br/>Enter first number:
+    <input type="text" id="txt1" name="text1">Enter second number:
+    <input type="text" id="txt2" name="text2">
+    <p id="demo"></p>
+   <p>Press Here to See The Result</p>
+    <button onclick="myFunction()">Result</button><br/>
+    <script>
+      function myFunction() {
+        var y = parseInt(document.getElementById("txt1").value);
+        var z = parseInt(document.getElementById("txt2").value);
+        var x = y + z;
+        document.getElementById("demo").innerHTML = x;
+      }
+    </script>
+  </body>
+</html>
