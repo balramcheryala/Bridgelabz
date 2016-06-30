@@ -106,7 +106,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>student_login_hibernate</finalName>
+    <finalName>studentregistrationform</finalName>
   </build>
   <artifactId>StudentForm</artifactId>
   <groupId>StudentRegistrationForm</groupId>
