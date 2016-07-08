@@ -1,0 +1,38 @@
+CREATE TABLE MumbaiPlayer (
+    `list_MumbaiPlayerList_player_name` VARCHAR(20) ,
+    `list_MumbaiPlayerList_player_img_url` VARCHAR(38) ,
+    `list_MumbaiPlayerList_player_role` VARCHAR(20) ,
+    `list_MumbaiPlayerList_player_batting_style` VARCHAR(12) ,
+    `list_MumbaiPlayerList_player_bowling_style` VARCHAR(22) ,
+    `list_MumbaiPlayerList_player_nationality` VARCHAR(13) ,
+    `list_MumbaiPlayerList_player_dob` VARCHAR(17)
+);
+
+INSERT INTO MumbaiPlayer VALUES ('Rohit Sharma','MumbaiIndians/rohit_sharma.png','Batsman','Right-handed','Right-arm off-spin','Indian','30 April 1987');
+INSERT INTO MumbaiPlayer VALUES ('Akshay Wakhare','MumbaiIndians/akshay_wakhare.png','Bowler','Right-handed','Right-arm off-break','Indian','03 October 1985');
+INSERT INTO MumbaiPlayer VALUES ('Ambati Rayudu','MumbaiIndians/ambati_rayudu.png','Wicketkeeper batsman','Right-handed','Right-arm off-spin','Indian','23 September 1985');
+INSERT INTO MumbaiPlayer VALUES ('Corey Anderson','MumbaiIndians/corey_anderson.png','All-rounder','Left-handed','Left-arm medium fast','New Zealander','13 December 1990');
+INSERT INTO MumbaiPlayer VALUES ('Deepak Punia','MumbaiIndians/deepak_punia.png','Bowler','Right-handed','Right-arm medium','Indian','27 September 1993');
+INSERT INTO MumbaiPlayer VALUES ('Harbhajan Singh','MumbaiIndians/harbhajan_singh.png','Bowling All-rounder','Right-handed','Right-arm off-spin','Indian','03 July 1980');
+INSERT INTO MumbaiPlayer VALUES ('Hardik Pandya','MumbaiIndians/hardik_pandya.png','All-rounder','Right-hand','Right-arm medium fast','Indian','11 October 1993');
+INSERT INTO MumbaiPlayer VALUES ('Jagadeesha Suchith','MumbaiIndians/jagadeesha_suchith.png','Bowler','Left-hand','Slow left-arm orthodox','Indian','16 January 1994');
+INSERT INTO MumbaiPlayer VALUES ('Jasprit Bumrah','MumbaiIndians/jasprit_bumrah.png','Bowler','Right-handed','Right-arm medium','Indian','06 December 1993');
+INSERT INTO MumbaiPlayer VALUES ('Jitesh Sharma','MumbaiIndians/jitesh_sharma.png','Wicketkeeper-batsman','Right-handed','-','Indian','22 October 1993');
+INSERT INTO MumbaiPlayer VALUES ('Jerome Taylor','MumbaiIndians/jerome_taylor.png','Bowler','Right-handed','Right-arm fast','West Indian','22 June 1984');
+INSERT INTO MumbaiPlayer VALUES ('Jos Buttler','MumbaiIndians/jos_buttler.png','Wicketkeeper-batsman','Right-handed','-','English','08 September 1990');
+INSERT INTO MumbaiPlayer VALUES ('Kieron Pollard','MumbaiIndians/kieron_pollard.png','All-rounder','Right-handed','Right-arm medium','West Indian','12 May 1987');
+INSERT INTO MumbaiPlayer VALUES ('Kishore Kamath','MumbaiIndians/kishore_kamath.png','All-rounder','Right-handed','Right-arm leg spin','Indian','31 January 1995');
+INSERT INTO MumbaiPlayer VALUES ('Krunal Pandya','MumbaiIndians/krunal_pandya.png','Left-handed','Left-arm orthodox','Indian','24 March 1991');
+INSERT INTO MumbaiPlayer VALUES ('Lasith Malinga','MumbaiIndians/lasith_malinga.png','Bowler','Right-handed','Right-arm fast','Sri Lankan','28 August 1983');
+INSERT INTO MumbaiPlayer VALUES ('Lendl Simmons','MumbaiIndians/lendl_simmons.png','Batsman','Right-handed','Right-arm medium-fast','West Indian','25 January 1985');
+INSERT INTO MumbaiPlayer VALUES ('Marchant de Lange','MumbaiIndians/marchant_de_lange.png','Bowler','Right-handed','Right-arm medium fast','South African','13 October 1990');
+INSERT INTO MumbaiPlayer VALUES ('Mitchell McClenaghan','MumbaiIndians/mitchell_mcclenaghan.png','Bowler','Left-handed','Left-arm medium-fast','New Zealander','11 June 1986');
+INSERT INTO MumbaiPlayer VALUES ('Martin Guptill','MumbaiIndians/martin_guptill.png','Bowler','Left-handed','Left-arm medium-fast','New Zealander','11 June 1986');
+INSERT INTO MumbaiPlayer VALUES ('Nathu Singh','MumbaiIndians/nathu_singh.png','Bowler','-','-','Indian','12 August 1989');
+INSERT INTO MumbaiPlayer VALUES ('Nitish Rana','MumbaiIndians/nitish_rana.png','Batsman','Left-handed','Right-arm off-break','Indian','27 December 1993');
+INSERT INTO MumbaiPlayer VALUES ('Parthiv Patel','MumbaiIndians/parthiv_patel.png','Wicketkeeper batsman','Left-handed','-','Indian','09 March 1985');
+INSERT INTO MumbaiPlayer VALUES ('Shreyas Gopal','MumbaiIndians/shreyas_gopal.png','All-rounder','Right-handed','Right-arm leg spin','Indian','04 September 1993');
+INSERT INTO MumbaiPlayer VALUES ('Siddhesh Lad','MumbaiIndians/siddhesh_lad.png','Batsman','Right-handed','RIght-arm off-spin','Indian','23 May 1992');
+INSERT INTO MumbaiPlayer VALUES ('Tim Southee','MumbaiIndians/tim_southee.png','Bowler','Right-handed','Right-arm medium fast','New Zealander','11 December 1988');
+INSERT INTO MumbaiPlayer VALUES ('Unmukt Chand','MumbaiIndians/unmukt_chand.png','Batsman','Right-handed','Right-arm off-spin','Indian','26 March 1993');
+INSERT INTO MumbaiPlayer VALUES ('Vinay Kumar','MumbaiIndians/vinay_kumar.png','Bowler','Right-handed','Right-arm medium fast','Indian','12 February 1984');

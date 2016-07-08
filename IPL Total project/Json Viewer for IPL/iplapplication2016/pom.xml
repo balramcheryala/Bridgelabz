@@ -1,9 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <packaging>war</packaging>
-  <version>v.1.0</version>
-  <name>hibernate Maven Webapp</name>
+  <groupId>IPLApp-2016</groupId>
+  <artifactId>IPL-2016-JSONVIEW</artifactId>
+  <version>Version 0.1</version>
+  <name>IPLTeamApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
   <!-- http://mvnrepository.com/artifact/org.springframework/spring-core -->
@@ -12,6 +13,13 @@
     <artifactId>spring-core</artifactId>
     <version>4.0.9.RELEASE</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+<dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.7.4</version>
+</dependency>
+
 <!-- http://mvnrepository.com/artifact/org.springframework/spring-web -->
 <dependency>
     <groupId>org.springframework</groupId>
@@ -104,10 +112,15 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
   </dependencies>
   <build>
-    <finalName>student_login_hibernate</finalName>
+    <finalName>IPLTeamApp</finalName>
   </build>
-  <artifactId>StudentRegistrationForm</artifactId>
-  <groupId>StudentRegistrationForm</groupId>
+  <packaging>war</packaging>
 </project>

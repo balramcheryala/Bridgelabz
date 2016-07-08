@@ -1,0 +1,31 @@
+CREATE TABLE KKRPlayer (
+    `list_KKRPlayer_player_name` VARCHAR(17) ,
+    `list_KKRPlayer_player_img_url` VARCHAR(41) ,
+    `list_KKRPlayer_player_role` VARCHAR(20) ,
+    `list_KKRPlayer_player_batting_style` VARCHAR(14) ,
+    `list_KKRPlayer_player_bowling_style` VARCHAR(22) ,
+    `list_KKRPlayer_player_nationality` VARCHAR(13) ,
+    `list_KKRPlayer_player_dob` VARCHAR(17)
+);
+INSERT INTO KKRPlayer VALUES ('Gautam Gambhir','KolkataKnightRiders/gautam_gambhir.png','Batsman','left_handed','Right-arm leg spin','Indian','14 October 1981');
+INSERT INTO KKRPlayer VALUES ('Andre Russell','KolkataKnightRiders/andre_russell.png','All-rounder','Right-handed','Right-arm fast','West Indian','29 April 1988');
+INSERT INTO KKRPlayer VALUES ('Ankit Rajpoot','KolkataKnightRiders/ankit_rajpoot.png','Bowler','Right-handed','Right-arm medium','Indian','04 December 1993');
+INSERT INTO KKRPlayer VALUES ('Brad Hogg','KolkataKnightRiders/brad_hogg.png','All-rounder','Left-handed','Left-arm chinaman','Australian','06 February 1971');
+INSERT INTO KKRPlayer VALUES ('Chris Lynn','KolkataKnightRiders/chris_lynn.png','Batsman','Right-handed','Left-arm orthodox spin','Australian','10 April 1990');
+INSERT INTO KKRPlayer VALUES ('Colin Munro','KolkataKnightRiders/colin_munro.png','Batsmen','Left-handed','Right arm medium','New Zealander','11 March 1987');
+INSERT INTO KKRPlayer VALUES ('Jason Holder','KolkataKnightRiders/jason_holder.png','All-rounder','Right-hand bat','Right-arm medium fast','West Indian','05 November 1991');
+INSERT INTO KKRPlayer VALUES ('Jaydev Unadkat','KolkataKnightRiders/jaydev_unadkat.png','Bowler','Left-handed','Left-arm medium fast','Indian','18 October 1991');
+INSERT INTO KKRPlayer VALUES ('John Hastings','KolkataKnightRiders/john_hastings.png','All-rounder','Right-handed','Right-arm medium','Australian','04 November 1985');
+INSERT INTO KKRPlayer VALUES ('Kuldeep Yadav','KolkataKnightRiders/kuldeep_yadav.png','All-rounder','Left-handed','Left-arm orthodox spin','Indian','14 December 1994');
+INSERT INTO KKRPlayer VALUES ('Manan Sharma','KolkataKnightRiders/manan_sharma.png','All -rounder','Left-handed','left-arm spin','Indian','19 March 1991');
+INSERT INTO KKRPlayer VALUES ('Manish Pandey','KolkataKnightRiders/manish_pandey.png','Batsman','Right-handed','Right-arm off-spin','Indian','10 September 1989');
+INSERT INTO KKRPlayer VALUES ('Morne Morkel','KolkataKnightRiders/morne_morkel.png','Bowler','Left-handed','Right-arm fast','South African','06 October 1984');
+INSERT INTO KKRPlayer VALUES ('Piyush Chawla','KolkataKnightRiders/piyush_chawla.png','Bowling All-rounder','Right-handed','Right-arm leg spin','Indian','24 December 1988');
+INSERT INTO KKRPlayer VALUES ('Rajagopal Sathish','KolkataKnightRiders/rajagopal_sathish.png','All-rounder','Right-handed','Right-arm medium','Indian','14 January 1981');
+INSERT INTO KKRPlayer VALUES ('Robin Uthappa','KolkataKnightRiders/robin_uthappa.png','Batsman','Right-handed','Right-arm medium','Indian','11 November 1985');
+INSERT INTO KKRPlayer VALUES ('Shakib Al Hasan','KolkataKnightRiders/shakib_al_hasan.png','All-rounder','Left-handed','Left-arm orthodox spin','Bangladeshi','24 March 1987');
+INSERT INTO KKRPlayer VALUES ('Sheldon Jackson','KolkataKnightRiders/sheldon_jackson.png','Wicketkeeper-batsman','Right-handed','-','Indian','27 September 1986');
+INSERT INTO KKRPlayer VALUES ('Sunil Narine','KolkataKnightRiders/sunil_narine.png','Bowler','Left-handed','Right-arm off-spin','West Indian','26 May 1988');
+INSERT INTO KKRPlayer VALUES ('Suryakumar Yadav','KolkataKnightRiders/suryakumar_yadav.png','Batsman','Right-handed','Right-arm medium','Indian','14 September 1990');
+INSERT INTO KKRPlayer VALUES ('Umesh Yadav','KolkataKnightRiders/umesh_yadav.png','Bowler','Right-handed','Right-arm medium fast','Indian','25 October 1987');
+INSERT INTO KKRPlayer VALUES ('Yusuf Pathan','KolkataKnightRiders/yusuf_pathan.png','Batsman','Right-handed','Right-arm off-spin','Indian','17 November 1982');

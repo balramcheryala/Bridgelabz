@@ -1,0 +1,33 @@
+CREATE TABLE punjabPlayer (
+    `list_PunjabPlayerList_player_name` VARCHAR(20),
+    `list_PunjabPlayerList_player_img_url` VARCHAR(37),
+    `list_PunjabPlayerList_player_role` VARCHAR(20),
+    `list_PunjabPlayerList_player_batting_style` VARCHAR(12),
+    `list_PunjabPlayerList_player_bowling_style` VARCHAR(22),
+    `list_PunjabPlayerList_player_nationality` VARCHAR(13),
+    `list_PunjabPlayerList_player_dob` VARCHAR(16)
+);
+
+INSERT INTO punjabPlayer VALUES ('Murali Vijay','KingsXIPunjab/murali_vijay.png','Batsman','Right-handed','Right-arm off-spin','Indian','01 April 1984');
+INSERT INTO punjabPlayer VALUES ('David Miller','KingsXIPunjab/david_miller.png','Batsman','Left-handed','Right-arm off-spin','South African','10 June 1989');
+INSERT INTO punjabPlayer VALUES ('Kyle Abbott','KingsXIPunjab/kyle_abbott.png','All-rounder','Right-handed','Right-arm medium fast','South African','18 June 1987');
+INSERT INTO punjabPlayer VALUES ('Anureet Singh','KingsXIPunjab/anureet_singh.png','Bowler','Right-handed','Right-arm medium','Indian','26 February 1982');
+INSERT INTO punjabPlayer VALUES ('Armaan Jaffer','KingsXIPunjab/armaan_jaffer.png','Batsman','Right-handed','-','Indian','25 October 1998');
+INSERT INTO punjabPlayer VALUES ('Farhaan Behardien','KingsXIPunjab/armaan_jaffer.png','Batsman','Right-handed','Right-arm fast-medium','South African','09 October 1983');
+INSERT INTO punjabPlayer VALUES ('KC Cariappa','KingsXIPunjab/k_c_cariappa.png','Bowler','Right-handed','Leg-break','Indian','13 April 1994');
+INSERT INTO punjabPlayer VALUES ('Rishi Dhawan','KingsXIPunjab/rishi_dhawan.png','All-rounder','Right-handed','Right-arm medium fast','Indian','19 February 1990');
+INSERT INTO punjabPlayer VALUES ('Gurkeerat Mann Singh','KingsXIPunjab/gurkeerat_mannSingh.png','Batsman','Right-handed','Right-arm off-spin','Indian','29 June 1990');
+INSERT INTO punjabPlayer VALUES ('Mitchell Johnson','KingsXIPunjab/mitchell_johnson.png','Bowling All-rounder','Left-handed','Left-arm fast','Australian','02 November 1981');
+INSERT INTO punjabPlayer VALUES ('Shaun Marsh','KingsXIPunjab/shaun_marsh.png','Batsman','Left-handed','Left-arm orthodox spin','Australian','09 July 1983');
+INSERT INTO punjabPlayer VALUES ('Glenn Maxwell','KingsXIPunjab/glenn_maxwell.png','All-rounder','Right-handed','Right-arm off-spin','Australian','14 October 1988');
+INSERT INTO punjabPlayer VALUES ('Nikhil Naik','KingsXIPunjab/nikhil_naik.png','Wicketkeeper-batsman','Right-handed','-','Indian','09 November 1994');
+INSERT INTO punjabPlayer VALUES ('Axar Patel','KingsXIPunjab/axar_patel.png','All-rounder','Left-handed','Left-arm orthodox spin','Indian','20 January 1994');
+INSERT INTO punjabPlayer VALUES ('Wriddhiman Saha','KingsXIPunjab/wriddhiman_saha.png','Wicketkeeper batsman','Right-handed','-','Indian','24 October 1984');
+INSERT INTO punjabPlayer VALUES ('Pradeep Sahu','KingsXIPunjab/pardeep_sahu.png','Batsman','Right-handed','Leg-spin','Indian','21 August 1985');
+INSERT INTO punjabPlayer VALUES ('Sandeep Sharma','KingsXIPunjab/sandeep_sharma.png','Bowler','Right-handed','Right-arm medium','Indian','18 May 1993');
+INSERT INTO punjabPlayer VALUES ('Mohit Sharma','KingsXIPunjab/mohit_sharma.png','Bowler','Right-handed','Right-arm medium','Indian','19 December 1991');
+INSERT INTO punjabPlayer VALUES ('Marcus Stonis','KingsXIPunjab/marcus_stoinis.png','All-rounder','Right-handed','Right-arm medium-fast','Australian','16 August 1989');
+INSERT INTO punjabPlayer VALUES ('Swapnil Singh','KingsXIPunjab/swapnil_singh.png','Bowling all-rounder','Right-handed','Left-arm spin','Indian','22 January 1991');
+INSERT INTO punjabPlayer VALUES ('Shardul Thakur','KingsXIPunjab/shardul_thakur.png','Bowler','Right-handed','Right-arm medium','Indian','16 October 1991');
+INSERT INTO punjabPlayer VALUES ('Manan Vohra','KingsXIPunjab/manan_vohra.png','Batsman','Right-handed','Right-arm medium','Indian','18 July 1993');
+INSERT INTO punjabPlayer VALUES ('Hashim Amla','KingsXIPunjab/hashim_amla.png','Batsman','Right-handed','-','Batsman','31 March 1983');

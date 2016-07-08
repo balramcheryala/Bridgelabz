@@ -6,13 +6,9 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-<<<<<<< HEAD:Spring3HibernateApp/.classpath
-	<classpathentry kind="lib" path="/home/balram/Downloads/javax.servlet-api-3.1.0.jar"/>
-=======
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/home/bridgelabz/Jars Files/javax.jar"/>
->>>>>>> e93f0954f5076ccf1d6ab5530a237a12e6aa049e:SpringHibernateWithCRUD/.classpath
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

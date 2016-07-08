@@ -1,0 +1,34 @@
+CREATE TABLE GujratLionPlayer (
+    `list_GujratPlayerList_player_name` VARCHAR(17) ,
+    `list_GujratPlayerList_player_img_url` VARCHAR(32) ,
+    `list_GujratPlayerList_player_role` VARCHAR(20) ,
+    `list_GujratPlayerList_player_batting_style` VARCHAR(12) ,
+    `list_GujratPlayerList_player_bowling_style` VARCHAR(22) ,
+    `list_GujratPlayerList_player_nationality` VARCHAR(13) ,
+    `list_GujratPlayerList_player_dob` VARCHAR(17) 
+);
+
+INSERT INTO GujratLionPlayer VALUES ('Suresh Raina','GujratLions/suresh_raina.png','Batsman','left_handed','Right-arm off-spin','Indian','27 November 1986');
+INSERT INTO GujratLionPlayer VALUES ('Aaron Finch','GujratLions/aaron_finch.png','Batsman','Right-handed','Left-arm medium','Australian','17 November 1986');
+INSERT INTO GujratLionPlayer VALUES ('Akshdeep Nath','GujratLions/akshdeep_nath.png','All-rounder','Right-handed','Right-arm medium-fast','Indian','10 May 1993');
+INSERT INTO GujratLionPlayer VALUES ('A Mishra','GujratLions/a_mishra.png','Bowler','Right-handed','Right-arm medium','Indian','11 November 1991');
+INSERT INTO GujratLionPlayer VALUES ('Andrew Tye','GujratLions/andrew_tye.png','All-rounder','Right-handed','Right-arm medium fast','Australian','12 December 1986');
+INSERT INTO GujratLionPlayer VALUES ('Brendon MacCullum','GujratLions/brendon_mcCullum.png','Wicketkeeper batsman','Right-handed','Right-arm medium','New Zealander','27 September 1981');
+INSERT INTO GujratLionPlayer VALUES ('Dale Steyn','GujratLions/dale_steyn.png','Bowler','Right-handed','Right-arm fast','South African','27 June 1983');
+INSERT INTO GujratLionPlayer VALUES ('Dhawal Kulkarni','GujratLions/dhawal_kulkarni.png','Bowler','Right-handed','Right-arm medium fast','Indian','10 December 1988');
+INSERT INTO GujratLionPlayer VALUES ('Dinesh Karthik','GujratLions/dinesh_karthik.png','Wicketkeeper batsman','Right-handed','-','Indian','01 June 1985');
+INSERT INTO GujratLionPlayer VALUES ('Dwayne Bravo','GujratLions/dwayne_bravo.png','All-rounder','All-rounder','All-rounder','West Indian','07 October 1983');
+INSERT INTO GujratLionPlayer VALUES ('Dwayne Smith','GujratLions/dwayne_smith.png','Batting All-rounder','Right-handed','Right-arm medium','West Indian','12 April 1983');
+INSERT INTO GujratLionPlayer VALUES ('Eklavya Dwivedi','GujratLions/eklavya_dwivedi.png','Wicketkeeper batsman','Right-handed','-','Indian','22 July 1988');
+INSERT INTO GujratLionPlayer VALUES ('Ishan Kishan','GujratLions/ishan_kishan.png','-','-','-','Indian','18 July 1998');
+INSERT INTO GujratLionPlayer VALUES ('James Faulkener','GujratLions/james_faulkner.png','All-rounder','All-rounder','All-rounder','Australian','29 April 1990');
+INSERT INTO GujratLionPlayer VALUES ('Jaydev Shah','GujratLions/jaydev_shah.png','Batsman','Left-handed','Right-arm off-spin','Indian','04 May 1983');
+INSERT INTO GujratLionPlayer VALUES ('Paras Dogra','GujratLions/paras_dogra.png','Batsman','Right-handed','Right-arm leg spin','Indian','19 November 1984');
+INSERT INTO GujratLionPlayer VALUES ('Pradeep Sangwan','GujratLions/pradeep_sangwan.png','Bowler','Right-handed','Left-arm medium fast','Indian','05 November 1990');
+INSERT INTO GujratLionPlayer VALUES ('Praveen Kumar','GujratLions/praveen_kumar.png','Bowler','Right-handed','Right-arm medium','Indian','02 October 1986');
+INSERT INTO GujratLionPlayer VALUES ('Pravin Tambe','GujratLions/pravin_tambe.png','All-rounder','Right-handed','Right-arm leg spin','Indian','08 October 1971');
+INSERT INTO GujratLionPlayer VALUES ('Ravindra Jadeja','GujratLions/ravindra_jadeja.png','All-rounder','Left-handed','Left-arm orthodox spin','Indian','06 December 1988');
+INSERT INTO GujratLionPlayer VALUES ('Sarabjit Ladda','GujratLions/sarabjit_ladda.png','Bowler','Right-handed','Right-arm leg spin','Indian','10 July 1986');
+INSERT INTO GujratLionPlayer VALUES ('Shadab Jakati','GujratLions/shadab_jakati.png','Bowler','Left-handed','Left-arm orthodox spin','Indian','27 November 1980');
+INSERT INTO GujratLionPlayer VALUES ('Shivil Kaushik','GujratLions/shivil_kaushik.png','Bowler','Left-handed','-','Indian','09 July 1995');
+INSERT INTO GujratLionPlayer VALUES ('Umang Sharma','GujratLions/umang_sharma.png','-','-','-','Indian','20 October 1989');

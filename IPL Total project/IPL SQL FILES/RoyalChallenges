@@ -1,0 +1,39 @@
+CREATE TABLE RoyalChallenges (
+    `list_RoyalChallengePlayerList_player_name` VARCHAR(16),
+    `list_RoyalChallengePlayerList_player_img_url` VARCHAR(46),
+    `list_RoyalChallengePlayerList_player_role` VARCHAR(20),
+    `list_RoyalChallengePlayerList_player_batting_style` VARCHAR(12),
+    `list_RoyalChallengePlayerList_player_bowling_style` VARCHAR(22),
+    `list_RoyalChallengePlayerList_player_nationality` VARCHAR(13),
+    `list_RoyalChallengePlayerList_player_dob` VARCHAR(17)
+);
+
+INSERT INTO RoyalChallenges VALUES ('Virat Kohli','RoyalChallengersBangalore/virat_kohli.png','Batsman','Right-handed','Right-arm medium','Indian','05 November 1988');
+INSERT INTO RoyalChallenges VALUES ('Varun Aaron','RoyalChallengersBangalore/varun_aaron.png','Bowler','Right-handed','Right-arm fast','Indian','29 October 1989');
+INSERT INTO RoyalChallenges VALUES ('Abu Nechim','RoyalChallengersBangalore/abu_nechim.png','Bowler','Right-handed','Right-arm medium fast','Indian','05 November 1988');
+INSERT INTO RoyalChallenges VALUES ('Sreenath Aravind','RoyalChallengersBangalore/sreenath_aravind.png','Bowler','Left-handed','Left-arm medium fast','Indian','08 April 1984');
+INSERT INTO RoyalChallenges VALUES ('Samuel Badree','RoyalChallengersBangalore/samuel_badri.png','Bowler','Right-handed','Right-arm leg spin','West Indian','09 March 1981');
+INSERT INTO RoyalChallenges VALUES ('Stuart Binny','RoyalChallengersBangalore/stuart_binny.png','All-rounder','Right-handed','Right-arm medium','Indian','03 June 1984');
+INSERT INTO RoyalChallenges VALUES ('Yuzvendra Chahal','RoyalChallengersBangalore/yuzvendra_chahal.png','Bowler','Right-handed','Right-arm leg spin','Indian','23 July 1990');
+INSERT INTO RoyalChallenges VALUES ('AB de Villiers','RoyalChallengersBangalore/ab_de_villiers.png','Wicketkeeper batsman','Right-handed','Right-arm medium','Indian','17 February 1984');
+INSERT INTO RoyalChallenges VALUES ('Praveen Dubey','RoyalChallengersBangalore/praveen_dubey.png','Bowling all-rounder','Right-handed','-','Indian','01 July 1993');
+INSERT INTO RoyalChallenges VALUES ('Chris Gayle','RoyalChallengersBangalore/chris_gayle.png','All-rounder','Left-handed','Right-arm off-spin','West Indian','21 September 1979');
+INSERT INTO RoyalChallenges VALUES ('Travis Head','RoyalChallengersBangalore/travis_head.png','Batsman','Left-handed','Right-arm off-break','Australian','29 December 1993');
+INSERT INTO RoyalChallenges VALUES ('Iqbal Abdulla','RoyalChallengersBangalore/iqbal_abdulla.png','Bowler','Left-handed','Left-arm orthodox spin','Indian','02 December 1989');
+INSERT INTO RoyalChallenges VALUES ('Kedar Jadhav','RoyalChallengersBangalore/kedar_jadhav.png','Batsman','Right-handed','Right-arm off-spin','Indian','26 March 1985');
+INSERT INTO RoyalChallenges VALUES ('Akshay Karnewar','RoyalChallengersBangalore/akshay_karnewar.png','Bowling','-','-','Indian','12 October 1992');
+INSERT INTO RoyalChallenges VALUES ('Sarfaraz Khan','RoyalChallengersBangalore/sarfaraz_khan.png','Batsman','Right-hand','Right-arm off-spin','Indian','22 October 1997');
+INSERT INTO RoyalChallenges VALUES ('Vikramjeet Malik','RoyalChallengersBangalore/vikramjeet_malik.png','Bowler','Right-handed','Right-arm medium','Indian','09 May 1983');
+INSERT INTO RoyalChallenges VALUES ('Mandeep Singh','RoyalChallengersBangalore/mandeep_singh.png','All-rounder','Right-handed','Right-arm medium','Indian','18 December 1991');
+INSERT INTO RoyalChallenges VALUES ('Adam Milne','RoyalChallengersBangalore/adam_milne.png','Bowler','Right-handed','Right-arm fast','New Zealander','13 April 1992');
+INSERT INTO RoyalChallenges VALUES ('Harshal Patel','RoyalChallengersBangalore/harshal_patel.png','Bowler','Right-handed','Right-arm medium','Indian','23 November 1990');
+INSERT INTO RoyalChallenges VALUES ('Lokesh Rahul','RoyalChallengersBangalore/lokesh_rahul.png','Wicketkeeper Batsman','Right-handed','-','Indian','18 April 1992');
+INSERT INTO RoyalChallenges VALUES ('Parveez Rasool','RoyalChallengersBangalore/parveez_rasool.png','Bowling All-rounder','Right-handed','Right-arm off-spin','Indian','13 February 1989');
+INSERT INTO RoyalChallenges VALUES ('Kane Richardson','RoyalChallengersBangalore/kane_richardson.png','Bowler','Right-handed','Right-arm medium fast','Australian','12 February 1991');
+INSERT INTO RoyalChallenges VALUES ('Sachin Baby','RoyalChallengersBangalore/sachin_baby.png','Batsman','Left-handed','Right-arm off-spin','Indian','18 December 1988');
+INSERT INTO RoyalChallenges VALUES ('Mitchell Starc','RoyalChallengersBangalore/mitchell_starc.png','Bowler','Left-handed','Left-arm fast-medium','Australian','30 January 1990');
+INSERT INTO RoyalChallenges VALUES ('Vikas Tokas','RoyalChallengersBangalore/vikas_tokas.png','Bowler','Right-handed','Right-arm medium','Indian','16 October 1986');
+INSERT INTO RoyalChallenges VALUES ('Shane Watson','RoyalChallengersBangalore/shane_watson.png','All-rounder','Right-handed','Right-arm medium fast','Australian','17 June 1981');
+INSERT INTO RoyalChallenges VALUES ('David Wiese','RoyalChallengersBangalore/david_wiese.png','All-rounder','Right-hand','Right-arm medium-fast','South African','18 May 1985');
+INSERT INTO RoyalChallenges VALUES ('Tabraiz Shazmi','RoyalChallengersBangalore/tabraiz_shazmi.png','Bowler','-','Left-Arm Chinaman','South African','18 February 1990');
+INSERT INTO RoyalChallenges VALUES ('Chris Jordan','RoyalChallengersBangalore/chris_jordan.png','Bowler','Right-hand','Right-arm fast','English','04 October 1988');

@@ -1,0 +1,37 @@
+CREATE TABLE RisingPunePlayer (
+    `list_PunePlayerList_player_name` VARCHAR(19),
+    `list_PunePlayerList_player_img_url` VARCHAR(45),
+    `list_PunePlayerList_player_role` VARCHAR(20),
+    `list_PunePlayerList_player_batting_style` VARCHAR(12),
+    `list_PunePlayerList_player_bowling_style` VARCHAR(22),
+    `list_PunePlayerList_player_nationality` VARCHAR(13),
+    `list_PunePlayerList_player_dob` VARCHAR(17)
+);
+
+INSERT INTO RisingPunePlayer VALUES ('MS Dhoni','RisingPuneSuperGiants/m_s_dhoni.png','Wicketkeeper batsman','Right-handed','Right-arm medium','Indian','07 July 1981');
+INSERT INTO RisingPunePlayer VALUES ('Ankit Sharma','RisingPuneSuperGiants/ankit_sharma.png','Bowling All-rounder','Left-handed','Left-arm orthodox spin','Indian','20 April 1991');
+INSERT INTO RisingPunePlayer VALUES ('Baba Aparajith','RisingPuneSuperGiants/baba_aparajith.png','All-rounder','Right-handed','Right-arm offbreak','Indian','08 July 1994');
+INSERT INTO RisingPunePlayer VALUES ('Ravichandran Ashwin','RisingPuneSuperGiants/ravichandran_ashwin.png','Bowling All-rounder','Right-handed','Right-arm off-spin','Indian','17 September 1986');
+INSERT INTO RisingPunePlayer VALUES ('Murugan Ashwin','RisingPuneSuperGiants/murugan_ashwin.png','Bowler','Right-handed','Legbreak googly','Indian','08 September 1990');
+INSERT INTO RisingPunePlayer VALUES ('Ankush Bains','RisingPuneSuperGiants/ankush_bains.png','Wicketkeeper batsman','Right-handed','-','Indian','16 December 1995');
+INSERT INTO RisingPunePlayer VALUES ('Rajat Bhatia','RisingPuneSuperGiants/rajat_bhatia.png','All-rounder','Right-handed','Right-arm medium fast','Indian','22 October 1979');
+INSERT INTO RisingPunePlayer VALUES ('Scott Boland','RisingPuneSuperGiants/scott_boland.png','Batting','Right-handed','Right-arm fast-medium','Australian','11 April 1989');
+INSERT INTO RisingPunePlayer VALUES ('Deepak Chahar','RisingPuneSuperGiants/deepak_chahar.png','Bowler','Right-handed','Right-arm medium','Indian','07 August 1992');
+INSERT INTO RisingPunePlayer VALUES ('Ashok Dinda','RisingPuneSuperGiants/ashok_dinda.png','Bowler','Right-handed','Right-arm medium fast','Indian','25 March 1984');
+INSERT INTO RisingPunePlayer VALUES ('Francois du Plessis','RisingPuneSuperGiants/francois_du_plessis.png','All-rounder','Right-handed','Right-arm leg spin','South African','13 July 1984');
+INSERT INTO RisingPunePlayer VALUES ('Peter Handscomb','RisingPuneSuperGiants/peter_handscomb.png','Batsman','Right-handed','-','Australian','26 April 1991');
+INSERT INTO RisingPunePlayer VALUES ('Jaskaran Singh','RisingPuneSuperGiants/jaskaran_singh.png','Bowler','Right-handed','Right-arm medium','Indian','04 September 1989');
+INSERT INTO RisingPunePlayer VALUES ('Mitchell Marsh','RisingPuneSuperGiants/mitchell_marsh.png','All-rounder','Right-handed','Right-arm medium','Australian','20 October 1991');
+INSERT INTO RisingPunePlayer VALUES ('Albie Morkel','RisingPuneSuperGiants/albie_morkel.png','All-rounder','Left-handed','Right-arm medium fast','South African','10 June 1981');
+INSERT INTO RisingPunePlayer VALUES ('Ishwar Pandey','RisingPuneSuperGiants/ishwar_pandey.png','Bowler','Right-handed','Right-arm medium','Indian','15 August 1989');
+INSERT INTO RisingPunePlayer VALUES ('Irfan Pathan','RisingPuneSuperGiants/irfan_pathan.png','Left-handed','Left-arm medium fast','Indian','27 October 1984');
+INSERT INTO RisingPunePlayer VALUES ('Thisara Perera','RisingPuneSuperGiants/thisara_perera.png','All-rounder','Left-handed','Right-arm medium fast','Sri Lankan','03 April 1989');
+INSERT INTO RisingPunePlayer VALUES ('Kevin Pietersen','RisingPuneSuperGiants/kevin_pietersen.png','Batsman','Right-handed','Right-arm off-spin','English','27 June 1980');
+INSERT INTO RisingPunePlayer VALUES ('Ajinkya Rahane','RisingPuneSuperGiants/ajinkya_rahane.png','Batsman','Right-handed','Right-arm medium','Indian','06 June 1988');
+INSERT INTO RisingPunePlayer VALUES ('Ishant Sharma','RisingPuneSuperGiants/ishant_sharma.png','Bowler','Right-handed','Right-arm medium fast','Indian','02 September 1988');
+INSERT INTO RisingPunePlayer VALUES ('RP Singh','RisingPuneSuperGiants/r_p_singh.png','Bowler','Right-handed','Left-arm medium','Indian','06 December 1985');
+INSERT INTO RisingPunePlayer VALUES ('Steve Smith','RisingPuneSuperGiants/steve_smith.png','Bowler','Right-handed','Right-arm leg spin','Australian','02 June 1989');
+INSERT INTO RisingPunePlayer VALUES ('Saurabh Tiwary','RisingPuneSuperGiants/saurabh_tiwary.png','Batsman','Left-handed','-','Indian','30 December 1989');
+INSERT INTO RisingPunePlayer VALUES ('Adam Zampa','RisingPuneSuperGiants/adam_zampa.png','Bowler','Right-handed','Legbreak googly','Australian','31 March 1992');
+INSERT INTO RisingPunePlayer VALUES ('Usman Khawaja','RisingPuneSuperGiants/usman_khawaja.png','Batsman','Left-handed','-','Australian','18 December 1986');
+INSERT INTO RisingPunePlayer VALUES ('George Bailey','RisingPuneSuperGiants/george_bailey.png','Batsman','Right-handed','Right-arm medium','Australian','07 September 1982');
