@@ -21,12 +21,12 @@
 
     <!-- form login beans -->
     <bean id="appAuthenticationEntryPoint"
-          class="com.spring.security.social.login.example.entrypoint.AppAuthenticationEntryPoint">
+          class="com.bridgelabz.ipl.entrypoint.AppAuthenticationEntryPoint">
         <constructor-arg name="loginFormUrl" value="/services/login"/>
     </bean>
     <bean id="rememberMeServices"
           class="org.springframework.security.web.authentication.NullRememberMeServices"/>
-    <bean id="successHandler" class="com.spring.security.social.login.example.handler.AppSuccessHandler"/>
+    <bean id="successHandler" class="com.bridgelabz.ipl.handler.AppSuccessHandler"/>
     <bean id="failureHandler"
           class="org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler">
         <constructor-arg name="defaultFailureUrl" value="/services/accessdenied"/>
@@ -91,7 +91,7 @@
 
     <!-- service registry will holds connection factory of each social provider -->
     <bean id="appSocialAuthenticationServiceRegistry"
-          class="com.spring.security.social.login.example.registry.AppSocialAuthenticationServiceRegistry">
+          class="com.bridgelabz.ipl.registry.AppSocialAuthenticationServiceRegistry">
         <constructor-arg>
             <list>
                 <ref bean="facebookAuthenticationService"/>
@@ -129,5 +129,5 @@
     <bean id="userIdSource" class="org.springframework.social.security.AuthenticationNameUserIdSource"/>
 
     <!-- If no local user is associated to a social connection then connection sign up will create a new local user and map it to social user -->
-    <bean id="connectionSignUp" class="com.spring.security.social.login.example.registry.AppConnectionSignUp"/>
+    <bean id="connectionSignUp" class="com.bridgelabz.ipl.registry.AppConnectionSignUp"/>
 </beans>

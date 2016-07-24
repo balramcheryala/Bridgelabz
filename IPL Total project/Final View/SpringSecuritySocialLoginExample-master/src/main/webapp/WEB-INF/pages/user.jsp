@@ -10,6 +10,5 @@
     Dear ${user}, you are successfully logged into this application.
     <br/>
     <a href="<c:url value="/j_spring_security_logout" />">Logout</a>
-    <a href="<c:url value="/services/ipl.html" />">ipl</a>
 </body>
 </html>

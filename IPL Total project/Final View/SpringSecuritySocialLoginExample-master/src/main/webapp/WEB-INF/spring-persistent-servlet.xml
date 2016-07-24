@@ -12,7 +12,7 @@
     <tx:annotation-driven />
 
     <!-- Ensures scans all annotations -->
-    <context:component-scan base-package="com.spring.security.social.login.example"/>
+    <context:component-scan base-package="com.bridgelabz.ipl"/>
 
     <!-- Ensures that configuration properties are read from a property file -->
     <context:property-placeholder location="classpath:application.properties"/>
